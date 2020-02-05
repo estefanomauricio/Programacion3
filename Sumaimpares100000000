@@ -1,0 +1,27 @@
+package sumaimpares;
+
+
+public class Sumaimpares {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       
+        
+        
+        double sumarimpares=0;
+        for(int j=1; j<=100000000; j++)
+        {
+            if(j %2==1 )
+            {
+                
+                sumarimpares=sumarimpares+j;
+                
+            }
+        }
+        
+        System.out.println(" la Suma de los numeros impares entre el 1 hasta 100'000.000 es: " + sumarimpares );
+          
+}
+}
